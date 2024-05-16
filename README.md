@@ -24,13 +24,13 @@ To install the Pet Store App, follow these steps:
    cd pet-store-app
 2. Install the necessary npm packages:
 
-```bash
+   ```bash
     Copy code
     npm install
 
 3. Start the backend API (assuming you have the Docker image for the Pet Store API):
 
-bash
+```bash
 Copy code
 docker pull swaggerapi/petstore3:unstable
 docker run --name swaggerapi-petstore3 -d -p 8080:8080 swaggerapi/petstore3:unstable
